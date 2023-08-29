@@ -74,7 +74,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>These are some of my projects </p>
+                <p>These are some of my projects  </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-4 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
