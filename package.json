@@ -3,17 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jayco12.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn run build",
+		"deploy": "gh-pages -d build"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
     "animate.css-react": "^1.1.0",
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.5",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-bootstrap-icons": "^1.10.3",

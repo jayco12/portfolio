@@ -31,7 +31,7 @@ export const About=()=> {
                         <div className="col-12">
                             <div className="skill-bx wow zoomIn">
                                 <h2>About me</h2>
-                                n
+                                
                                 <p>I am skilled in a diversity of areas.<br></br> Here are some of them</p>
                                 <img className="profile" src={joseph}></img>
                             </div>
