@@ -190,7 +190,7 @@ span.navbar-text {
   text-decoration: none;
   text-align: start;
   font-size: 30px;
-  margin-left: 0 !important;
+  margin-left: 0 ;
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
@@ -355,13 +355,60 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 /* About Css */
 .profile{
-  height:200px;
-  width:200px;
+  height:300px;
+  width:300px;
+  border:  #34222d;
+  border-width: 10px;
+  border-radius: 20px;
   align-items: start;
-  margin-right: 700px;
   margin-top: 0px;
+  box-shadow: #ebe9e9;
+  padding:7px 0;
+  
 }
+.about {
+  padding: 0 0 50px 0;
+  position: relative;
+  height:fit-content;
+  
+}
+.about-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  position: relative;
+  padding: 60px 50px;
+  margin-top: -60px;
+  height: 700px;
+}
+.experiences{
+  height:100px
+}
+.Column{
+  margin:4px, 4px;
+  position: absolute;
+  padding:4px;
+  width: 400px;
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y:scroll;
+  text-align:justify;
 
+}
+.Column::-webkit-scrollbar{
+  display: none;
+}
+.about h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.about p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
 
 
 /************ Projects Css ************/
