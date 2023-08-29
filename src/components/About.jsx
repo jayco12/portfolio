@@ -39,14 +39,14 @@ export const About = () => {
                     <h6>Flutter/Web developer</h6>
                     <p>I build accessible, inclusive products and digital experiences for the mobile and web applications.</p>
                     <div className="experiences">
-                    <Col className="Column mb-2gggg">
+                    {/* <Col className="Column mb-2gggg">
                       <p>
                         I am a Vice President of OAU Campuns Ambassadors at Boundlesspay, a leading cryptocurrency and blockchain platform in Africa. I lead a team of passionate students who promote the use of digital currency on campus, organizing events, workshops, and campaigns to educate and engage our peers.
 
                         I am also an App Developer at Balablue, a startup that creates innnnovative solutions for e-commerce and social media platforms. I use Flutter and Firebase to design, develop, and maintain mobile applications that enhance user experience and functionality. I have contributed to several projects, such as a chatbot that provides customer support, a loyalty program that rewards users for referrals, and a gamified interface that boosts user engagement. I am always eager to learn new skills and technologies that can help me create better products and services.
 
                       I am pursuing a Bachelor of Engineering degree in Mechanical Engineering at Obafemi Awolowo University, where I also explore my interests in robotics and artificial intelligence. I am a self-taught programmer who enjoys building apps and websites with Flutter, React JS, and other frameworks. I am motivated by the challenge and the opportunity to solve real-world problems with technology.
-                      </p>
+                      </p> */}
                       {/* <h4>Experiences</h4>
                       <p>
                         Mobile Developer HAYSTER LAUNDROMAT
@@ -77,7 +77,7 @@ export const About = () => {
                         Utilized programming capabilities in HTML, CSS, and JavaScript and other libraries as needed. Curated project goals and milestones as discussed at team meetings with executives. Implemented 25% of Google campaigns and SEO for various types of websites.
                       </p> */}
                       
-                    </Col>
+                    {/* </Col> */}
                     </div>
                   </div>
                 </Row>

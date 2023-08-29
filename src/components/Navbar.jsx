@@ -36,9 +36,8 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-        <a className="name" href="#">Joseph Oduyebo</a>
-          &nbsp;
-          &nbsp;
+        <a className="name " href="#">Joseph Oduyebo</a>
+          
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
